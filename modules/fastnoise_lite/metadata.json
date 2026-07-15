@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/Auburn/FastNoiseLite",
+    "maintainers": [
+        {
+            "name": "Michael Field",
+            "github": "mfield4"
+        }
+    ],
+    "repository": [
+        "github:Auburn/FastNoiseLite"
+    ],
+    "versions": [
+        "1.1.1"
+    ],
+    "yanked_versions": {}
+}

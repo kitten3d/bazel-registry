@@ -1,0 +1,10 @@
+# Registry overlay — upstream has no Bazel files. Single header spelled
+# explicitly (no glob). Target at the root so consumers write @fastnoise_lite.
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "fastnoise_lite",
+    hdrs = ["Cpp/FastNoiseLite.h"],
+    includes = ["Cpp"],
+    visibility = ["//visibility:public"],
+)

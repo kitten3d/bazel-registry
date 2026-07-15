@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/Auburn/FastNoiseLite/archive/refs/tags/v1.1.1.tar.gz",
+    "integrity": "sha256-ix1DmvGuiOr409CDhUB5bfyS3dIWIwsoFvDFvLs8mCQ=",
+    "strip_prefix": "FastNoiseLite-1.1.1",
+    "overlay": {
+        "MODULE.bazel": "sha256-2QY3VNrDCNRUSpFGOjwfhxTubpBQgjy98Uj9MBuVzx4=",
+        "BUILD.bazel": "sha256-gp2P0xXtkFgQMcW2jLwC6mGWS1+OezCSdTzg3+HMwt0="
+    }
+}

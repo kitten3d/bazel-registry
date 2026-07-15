@@ -1,0 +1,11 @@
+# FastNoiseLite — not in BCR (checked 2026-07-09, rechecked 2026-07-15).
+# Upstream ships no Bazel files; the overlay supplies this MODULE.bazel and a
+# root BUILD.bazel exposing the single C++ header.
+module(
+    name = "fastnoise_lite",
+    version = "1.1.1",
+    bazel_compatibility = [">=7.2.1"],
+    compatibility_level = 1,
+)
+
+bazel_dep(name = "rules_cc", version = "0.2.17")
