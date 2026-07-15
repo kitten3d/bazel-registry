@@ -1,0 +1,20 @@
+# imgui_wgpu — BCR's imgui 1.92.2 module mirrored verbatim, plus a
+# renderer-wgpu backend target (imgui_impl_wgpu.cpp against Dawn) that BCR
+# does not provide. Consumers map it back with repo_name = "imgui" so labels
+# and <imgui/...> includes match BCR exactly; a future switch to BCR proper
+# is a bazel_dep rename.
+module(
+    name = "imgui_wgpu",
+    version = "1.92.2",
+    bazel_compatibility = [">=7.2.1"],
+    compatibility_level = 0,
+)
+
+bazel_dep(name = "platforms", version = "0.0.11")
+bazel_dep(name = "rules_cc", version = "0.1.1")
+# Deviation from BCR's mirror source (which pins 3.3.9): that glfw version
+# has no //:glfw target, so BCR's own minimum is unbuildable — smoke-caught.
+bazel_dep(name = "glfw", version = "3.4.0.bcr.1")
+
+# Served from this same kitten3d registry (Wayland+X11-enabled Linux build).
+bazel_dep(name = "dawn", version = "20260214.164635")

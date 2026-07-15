@@ -1,0 +1,10 @@
+{
+    "url": "https://github.com/ocornut/imgui/archive/refs/tags/v1.92.2.tar.gz",
+    "integrity": "sha256-mUqteFoKpXJTjZCbkjvwpk57/lqzNg2K4OOXxrsxLAQ=",
+    "strip_prefix": "imgui-1.92.2",
+    "overlay": {
+        "MODULE.bazel": "sha256-J2iU5Jj7hJvGp1sGybPQqvqAE4viio5zx1P1WO/+6W4=",
+        "BUILD.bazel": "sha256-gZo/FwvLbNU6xL0XX61/Wbkx2BN5j1goWLLAyye5tQc=",
+        "backends/BUILD.bazel": "sha256-7BoC1BgMDrWTIdxgtAfpeJaRJeRdvrMHi+k1uua2G3s="
+    }
+}

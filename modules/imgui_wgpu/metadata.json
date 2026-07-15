@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/ocornut/imgui",
+    "maintainers": [
+        {
+            "name": "Michael Field",
+            "github": "mfield4"
+        }
+    ],
+    "repository": [
+        "github:ocornut/imgui"
+    ],
+    "versions": [
+        "1.92.2"
+    ],
+    "yanked_versions": {}
+}
