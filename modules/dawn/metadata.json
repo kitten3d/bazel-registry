@@ -1,0 +1,13 @@
+{
+    "homepage": "https://github.com/kitten3d/dawn-builds",
+    "maintainers": [
+        {
+            "name": "Michael Field",
+            "github": "mfield4"
+        }
+    ],
+    "versions": [
+        "20260214.164635"
+    ],
+    "yanked_versions": {}
+}
