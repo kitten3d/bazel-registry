@@ -1,0 +1,9 @@
+{
+    "url": "https://github.com/skypjack/entt/archive/refs/tags/v3.14.0.tar.gz",
+    "integrity": "sha256-4x9ulaMOKXelBEnvmmB6n/QP6+b52iqBRKGD+GBvdxk=",
+    "strip_prefix": "entt-3.14.0",
+    "overlay": {
+        "MODULE.bazel": "sha256-YivLkZFu7jk4BOEHtvsVxGN9sn1ZnQqTsWyFeAMz3qk=",
+        "src/BUILD.bazel": "sha256-SR2QP/l+XYGJdP24Jv5F0pUC/yesA+BN6V1NS+44oEk="
+    }
+}

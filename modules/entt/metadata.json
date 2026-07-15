@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/skypjack/entt",
+    "maintainers": [
+        {
+            "name": "Michael Field",
+            "github": "mfield4"
+        }
+    ],
+    "repository": [
+        "github:skypjack/entt"
+    ],
+    "versions": [
+        "3.14.0"
+    ],
+    "yanked_versions": {}
+}

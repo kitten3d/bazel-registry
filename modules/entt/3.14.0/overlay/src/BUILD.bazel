@@ -1,0 +1,14 @@
+# Registry overlay — replaces upstream src/BUILD.bazel, which breaks under
+# Bazel 9 (bare cc_library without a rules_cc load) and forces -std=c++17
+# copts. Header-only library; consumers set their own language standard.
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "entt",
+    hdrs = glob([
+        "**/*.h",
+        "**/*.hpp",
+    ]),
+    includes = ["."],
+    visibility = ["//visibility:public"],
+)
